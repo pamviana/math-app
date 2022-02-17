@@ -2,9 +2,9 @@ import React from "react";
 import "./Home.styles.css";
 import { HiMenu } from "react-icons/hi";
 import HomeItem from "./HomeItem/HomeItem.component";
-import { AiOutlineCamera } from "react-icons/ai";
-import { BsCardImage } from "react-icons/bs";
-import { HiPencilAlt } from "react-icons/hi";
+// import { AiOutlineCamera } from "react-icons/ai";
+// import { BsCardImage } from "react-icons/bs";
+// import { HiPencilAlt } from "react-icons/hi";
 
 function Home() {
   return (
@@ -18,9 +18,9 @@ function Home() {
       </header>
       <div className="home-container">
         <ul>
-          <HomeItem icon={<BsCardImage size={"1.2em"} color="rgb(97, 97, 97)"/>} paragraph="Upload" />
-          <HomeItem icon={<AiOutlineCamera size={"1.2em"} color="rgb(97, 97, 97)"/>} paragraph="Scan" />
-          <HomeItem icon={<HiPencilAlt size={"1.2em"} color="rgb(97, 97, 97)"/>} paragraph="Draw" />
+          <HomeItem  paragraph="Upload" /> {/*icon={<BsCardImage size={"1.2em"} color="rgb(97, 97, 97)"/>}*/}
+          <HomeItem  paragraph="Scan" /> {/*icon={<AiOutlineCamera size={"1.2em"} color="rgb(97, 97, 97)"/>}*/}
+          <HomeItem  paragraph="Draw" /> {/*icon={<HiPencilAlt size={"1.2em"} color="rgb(97, 97, 97)"/>}*/}
         </ul>
       </div>
     </section>
